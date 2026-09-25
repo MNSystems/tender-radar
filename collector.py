@@ -4,7 +4,7 @@ import json
 
 # Конфигурация Supabase
 SUPABASE_URL = "https://fjbbvmtfnypaaffkvbzo.supabase.co"
-SUPABASE_KEY = "sb_secret_2x2OqUXH2PKFeYUD6WTo9A_I4VefqU_"
+SUPABASE_KEY = os.getenv("SUPABASE_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZqYmJ2bXRmbnlwYWFmZmt2YnpvIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc5MDI3ODc1NiwiZXhwIjoyMTA1ODU0NzU2fQ.jcT0jmIdDj9JRIlM0g6HigDb0lIzXRGJiA0oiWG0rrY")
 
 # Конфигурация Telegram
 TELEGRAM_BOT_TOKEN = "8972444318:AAFlm9tqwFDFFh6E8_vkWKfdF4D-vsyQxmMP"
